@@ -5,7 +5,9 @@
 # git branch -M main
 
 while read current_date; do
+  echo "Commit on $current_date" > dummy.txt   # Tambah / update isi file dummy
   git add .
+  
   GIT_AUTHOR_DATE="$current_date 12:00:00" GIT_COMMITTER_DATE="$current_date 12:00:00" \
   git commit -m "Commit on $current_date"
   
