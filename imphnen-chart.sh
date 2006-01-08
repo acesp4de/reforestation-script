@@ -1,8 +1,8 @@
 #!/bin/bash
 
-git init
-git remote add origin https://github.com/acesp4de/reforestation-script.git
-git branch -M main
+# git init
+# git remote add origin https://github.com/acesp4de/reforestation-script.git
+# git branch -M main
 
 while read current_date; do
   git add .
