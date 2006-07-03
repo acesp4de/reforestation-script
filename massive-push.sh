@@ -10,7 +10,7 @@ end_date="2000-12-31"
 current_date=$start_date
 
 while [[ "$current_date" < "$end_date" ]]; do
-echo "Commit on $current_date" > dummy.txt 
+  echo "Commit on $current_date" > dummy.txt 
   git add .
   GIT_AUTHOR_DATE="$current_date 12:00:00" GIT_COMMITTER_DATE="$current_date 12:00:00" git commit -m "Commit on $current_date"
   
