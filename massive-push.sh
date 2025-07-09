@@ -1,9 +1,9 @@
 #!/bin/bash
 
-git init
+# git init
 # git remote add origin <URL_REPO>
 # git remote add origin https://github.com/acesp4de/reforestation-script.git
-git branch -M main
+# git branch -M main
 
 start_date="2000-07-01"
 end_date="2000-12-31"
